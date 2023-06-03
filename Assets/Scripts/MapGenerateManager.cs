@@ -37,18 +37,19 @@ public class MapGenerateManager : MonoBehaviour
                 map[i, j] = new RoomData(new Vector2Int(i, j), new int[] { 0, 0, 0, 0 });
             }
         }
-        CreateStartRoom(startPos);
+
+        CreateStartRoom();
         if (roomCount < targetRoomCount) StartGenerate();
 
         BlockUnFinishedRooms();
         DrawRooms();
     }
 
-    private void CreateStartRoom(GenerateStartPosition _startPos)
+    private void CreateStartRoom()
     {
         Vector2Int pos = new Vector2Int(mapSize.x / 2, mapSize.y / 2);
         int[] walls = new int[4] {0,0,0,0};
-        switch (_startPos)
+        switch (startPos)
         {
             case GenerateStartPosition.Center:
                 pos.x = mapSize.x / 2;
