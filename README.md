@@ -1,5 +1,5 @@
 # 2D-Dungeon-Generator
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0f1f692-9512-4d09-b956-9971ef51d566/Untitled.png)
+![Untitled](https://github.com/IVAEU/2D-Dungeon-Generator/assets/92388160/1905eeef-43d9-46df-a6cf-797226fbdda7)
 
 **Generate Rooms** : ReGenerate Rooms
 
