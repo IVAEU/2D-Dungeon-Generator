@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 1275617876}
   - component: {fileID: 1275617875}
   m_Layer: 0
-  m_Name: MapGeneraotr
+  m_Name: MapGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,12 +236,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67feb71d92df5014a906ce38e4dfef17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapSize: {x: 5, y: 5}
   generateRooms: 0
-  startPos: 0
+  mapSize: {x: 5, y: 5}
+  startPos: 1
   targetRoomCount: 15
   roomObj: {fileID: 9016258577226844525, guid: b3892f6d7db48c944bb5a592b325a421, type: 3}
-  drawText: 0
 --- !u!4 &1275617876
 Transform:
   m_ObjectHideFlags: 0
